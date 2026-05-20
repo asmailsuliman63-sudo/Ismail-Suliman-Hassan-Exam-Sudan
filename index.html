@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sudan Exams</title>
 
+<style>
+
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+    margin:0;
+    direction:rtl;
+}
+
+header{
+    background:#0d47a1;
+    color:white;
+    padding:20px;
+    text-align:center;
+    font-size:28px;
+}
+
+.container{
+    padding:15px;
+}
+
+.subject{
+    background:white;
+    margin:10px 0;
+    padding:15px;
+    border-radius:10px;
+    cursor:pointer;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    font-size:20px;
+}
+
+.subject:hover{
+    background:#dbe9ff;
+}
+
+iframe{
+    width:100%;
+    height:600px;
+    margin-top:20px;
+    border:none;
+    border-radius:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+امتحانات السودان 2003 - 2024
+</header>
+
+<div class="container">
+
+<div class="subject" onclick="openPDF('arabic-2024.pdf')">
+اللغة العربية
+</div>
+
+<div class="subject" onclick="openPDF('english-2024.pdf')">
+اللغة الإنجليزية
+</div>
+
+<div class="subject" onclick="openPDF('math-basic-2024.pdf')">
+الرياضيات الأساسية
+</div>
+
+<div class="subject" onclick="openPDF('physics-2024.pdf')">
+الفيزياء
+</div>
+
+<iframe id="viewer"></iframe>
+
+</div>
+
+<script>
+
+function openPDF(file){
+
+let url = "https://raw.githubusercontent.com/asmailsuliman63-sudo/Ismail-Suliman-Hassan-Exam-Sudan/main/" + file;
+
+document.getElementById("viewer").src = url;
+
+}
+
+</script>
+
+</body>
+</html>
