@@ -1,1 +1,227 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ismail Sudan Exams</title>
 
+<style>
+body{
+font-family:Arial;
+background:#f2f2f2;
+margin:0;
+direction:rtl;
+}
+
+header{
+background:#0d47a1;
+color:white;
+padding:20px;
+text-align:center;
+font-size:30px;
+}
+
+.container{
+padding:15px;
+}
+
+.section{
+background:white;
+padding:15px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section h2{
+margin-top:0;
+color:#0d47a1;
+}
+
+button{
+margin:5px;
+padding:10px 15px;
+border:none;
+border-radius:8px;
+background:#1976d2;
+color:white;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:#0d47a1;
+}
+
+iframe{
+width:100%;
+height:700px;
+border:none;
+border-radius:10px;
+margin-top:20px;
+background:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+منصة إسماعيل سليمان حسن لامتحانات السودان
+</header>
+
+<div class="container">
+
+<div class="section">
+<h2>اللغة العربية</h2>
+<button onclick="openPDF('arabic-2020.pdf')">2020</button>
+<button onclick="openPDF('arabic-2022.pdf')">2022</button>
+<button onclick="openPDF('arabic-2023.pdf')">2023</button>
+<button onclick="openPDF('arabic-2024.pdf')">2024</button>
+</div>
+
+<div class="section">
+<h2>اللغة الإنجليزية</h2>
+<button onclick="openPDF('english-2004.pdf')">2004</button>
+<button onclick="openPDF('english-2005.pdf')">2005</button>
+<button onclick="openPDF('english-2006.pdf')">2006</button>
+<button onclick="openPDF('english-2007.pdf')">2007</button>
+<button onclick="openPDF('english-2008.pdf')">2008</button>
+<button onclick="openPDF('english-2011.pdf')">2011</button>
+<button onclick="openPDF('english-2012.pdf')">2012</button>
+<button onclick="openPDF('english-2013.pdf')">2013</button>
+<button onclick="openPDF('english-2014.pdf')">2014</button>
+<button onclick="openPDF('english-2015.pdf')">2015</button>
+<button onclick="openPDF('english-2016.pdf')">2016</button>
+<button onclick="openPDF('english-2017.pdf')">2017</button>
+<button onclick="openPDF('english-2018.pdf')">2018</button>
+<button onclick="openPDF('english-2019.pdf')">2019</button>
+<button onclick="openPDF('english-2020.pdf')">2020</button>
+<button onclick="openPDF('english-2022.pdf')">2022</button>
+<button onclick="openPDF('english-2023.pdf')">2023</button>
+<button onclick="openPDF('english-2024.pdf')">2024</button>
+</div>
+
+<div class="section">
+<h2>الرياضيات الأساسية</h2>
+<button onclick="openPDF('math-basic-2004.pdf')">2004</button>
+<button onclick="openPDF('math-basic-2005.pdf')">2005</button>
+<button onclick="openPDF('math-basic-2006.pdf')">2006</button>
+<button onclick="openPDF('math-basic-2007.pdf')">2007</button>
+<button onclick="openPDF('math-basic-2008.pdf')">2008</button>
+<button onclick="openPDF('math-basic-2011.pdf')">2011</button>
+<button onclick="openPDF('math-basic-2012.pdf')">2012</button>
+<button onclick="openPDF('math-basic-2013.pdf')">2013</button>
+<button onclick="openPDF('math-basic-2014.pdf')">2014</button>
+<button onclick="openPDF('math-basic-2015.pdf')">2015</button>
+<button onclick="openPDF('math-basic-2016.pdf')">2016</button>
+<button onclick="openPDF('math-basic-2017.pdf')">2017</button>
+<button onclick="openPDF('math-basic-2018.pdf')">2018</button>
+<button onclick="openPDF('math-basic-2020.pdf')">2020</button>
+<button onclick="openPDF('math-basic-2023.pdf')">2023</button>
+<button onclick="openPDF('math-badic-2024.pdf')">2024</button>
+</div>
+
+<div class="section">
+<h2>الرياضيات المتخصصة</h2>
+<button onclick="openPDF('math-advance-2004.pdf')">2004</button>
+<button onclick="openPDF('math-advance-2005.pdf')">2005</button>
+<button onclick="openPDF('math-advance-2006.pdf')">2006</button>
+<button onclick="openPDF('math-advance-2007.pdf')">2007</button>
+<button onclick="openPDF('math-advance-2008.pdf')">2008</button>
+<button onclick="openPDF('math-advance-2011.pdf')">2011</button>
+<button onclick="openPDF('math-advance-2012.pdf')">2012</button>
+<button onclick="openPDF('math-advance-2013.pdf')">2013</button>
+<button onclick="openPDF('math-advance-2014.pdf')">2014</button>
+<button onclick="openPDF('math-advance-2015.pdf')">2015</button>
+<button onclick="openPDF('math-advance-2016.pdf')">2016</button>
+<button onclick="openPDF('math-advance-2017.pdf')">2017</button>
+<button onclick="openPDF('math-advance-2018.pdf')">2018</button>
+<button onclick="openPDF('math-advance-2019.pdf')">2019</button>
+<button onclick="openPDF('math-advance-2020.pdf')">2020</button>
+<button onclick="openPDF('math-advance-2022.pdf')">2022</button>
+<button onclick="openPDF('math-advance-2023.pdf')">2023</button>
+<button onclick="openPDF('math-advanced-2024.pdf')">2024</button>
+</div>
+
+<div class="section">
+<h2>الفيزياء</h2>
+<button onclick="openPDF('physics-2004.pdf')">2004</button>
+<button onclick="openPDF('physics-2005.pdf')">2005</button>
+<button onclick="openPDF('physics-2006.pdf')">2006</button>
+<button onclick="openPDF('physics-2007.pdf')">2007</button>
+<button onclick="openPDF('physics-2008.pdf')">2008</button>
+<button onclick="openPDF('physics-2011.pdf')">2011</button>
+<button onclick="openPDF('physics-2012.pdf')">2012</button>
+<button onclick="openPDF('physics-2013.pdf')">2013</button>
+<button onclick="openPDF('physics-2014.pdf')">2014</button>
+<button onclick="openPDF('physics-2015.pdf')">2015</button>
+<button onclick="openPDF('physics-2016.pdf')">2016</button>
+<button onclick="openPDF('physics-2017.pdf')">2017</button>
+<button onclick="openPDF('physics-2018.pdf')">2018</button>
+<button onclick="openPDF('physics-2019.pdf')">2019</button>
+<button onclick="openPDF('physics-2020.pdf')">2020</button>
+<button onclick="openPDF('physics-2022.pdf')">2022</button>
+<button onclick="openPDF('physics-2023.pdf')">2023</button>
+<button onclick="openPDF('physics-2024.pdf')">2024</button>
+</div>
+
+<div class="section">
+<h2>الكيمياء</h2>
+<button onclick="openPDF('الكيمياء-2004.pdf')">2004</button>
+<button onclick="openPDF('ملف الكيمياء - 2006.pdf')">2006</button>
+<button onclick="openPDF('ملف الكيمياء - 2007.pdf')">2007</button>
+<button onclick="openPDF('الكيمياء-2008.pdf')">2008</button>
+<button onclick="openPDF('ملف الكيمياء - 2012.pdf')">2012</button>
+<button onclick="openPDF('ملف الكيمياء - 2014.pdf')">2014</button>
+<button onclick="openPDF('الكيمياء-2020.pdf')">2020</button>
+<button onclick="openPDF('ملف الكيمياء - 2022.pdf')">2022</button>
+<button onclick="openPDF('ملف الكيمياء - 2023.pdf')">2023</button>
+<button onclick="openPDF('ملف الكيمياء - 2024.pdf')">2024</button>
+</div>
+
+<div class="section">
+<h2>الأحياء</h2>
+<button onclick="openPDF('علم الأحياء - 2004.pdf')">2004</button>
+<button onclick="openPDF('علم الأحياء - 2007.pdf')">2007</button>
+<button onclick="openPDF('علم الأحياء - 2013.pdf')">2013</button>
+<button onclick="openPDF('علم الأحياء - 2018.pdf')">2018</button>
+</div>
+
+<div class="section">
+<h2>التربية الإسلامية</h2>
+<button onclick="openPDF('islamic-2003.pdf')">2003</button>
+<button onclick="openPDF('islamic-2004.pdf')">2004</button>
+<button onclick="openPDF('islamic-2006.pdf')">2006</button>
+<button onclick="openPDF('islamic-2007.pdf')">2007</button>
+<button onclick="openPDF('islamic-2008.pdf')">2008</button>
+<button onclick="openPDF('islamic-2011.pdf')">2011</button>
+<button onclick="openPDF('islamic-2012.pdf')">2012</button>
+<button onclick="openPDF('islamic-2013.pdf')">2013</button>
+<button onclick="openPDF('islamic-2014.pdf')">2014</button>
+<button onclick="openPDF('islamic-2015.pdf')">2015</button>
+<button onclick="openPDF('islamic-2016.pdf')">2016</button>
+<button onclick="openPDF('islamic-2017.pdf')">2017</button>
+<button onclick="openPDF('islamic-2019.pdf')">2019</button>
+<button onclick="openPDF('islamic-2020.pdf')">2020</button>
+<button onclick="openPDF('islamic-2023.pdf')">2023</button>
+<button onclick="openPDF('islamic-2024.pdf')">2024</button>
+</div>
+
+<iframe id="viewer"></iframe>
+
+</div>
+
+<script>
+
+function openPDF(file){
+
+let url = "https://raw.githubusercontent.com/asmailsuliman63-sudo/Ismail-Suliman-Hassan-Exam-Sudan/main/" + encodeURIComponent(file);
+
+ document.getElementById('viewer').src = url;
+}
+
+</script>
+
+</body>
+</html>
